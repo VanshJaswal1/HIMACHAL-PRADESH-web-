@@ -1,7 +1,21 @@
 #anibox1 {
-  height: 100px;
+  height: 60px;
   width: 100%;
   text-align: center;
-  border: 5px solid black ;
+  border: 2px gold ;
+    animation: righttoleft 20s linear infinite;
+
+}
+
+
+@keyframes righttoleft{
+
+    from{
+        transform: translateX(-100vw);
+    }
+
+    to{
+        transform: translateX(100%);
+    }
 
 }
