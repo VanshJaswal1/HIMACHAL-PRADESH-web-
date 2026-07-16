@@ -1,12 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.img2{
+ height: 1000px;
+ width: 100%;
+background-image: url(Himage2.png);
+background-size:cover;
+background-position:center;
+position:relative;
+
+}
+
+
+
 #anibox1 {
   height: 60px;
   width: 100%;
+  
   text-align: center;
   border: 2px gold ;
     animation: righttoleft 20s linear infinite;
     /*  background mein image dera hu aise dete hai  */
-    background-image: url(Himage1.png);
-
+    /* background-image: url(Himage2.png); */
+  
 }
 
 
@@ -21,3 +41,4 @@
     }
 
 }
+
