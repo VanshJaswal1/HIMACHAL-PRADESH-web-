@@ -1,17 +1,15 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
-
-
 .img2{
- height: 1000px;
+ height: 670px;
  width: 100%;
-background-image: url(Himage1.png);
+background-image: url(HPimage1.png);
 background-size:cover;
-background-position:center;
-position:relative;
+/* background-position:center;
+position:relative; */
 
 }
 
@@ -20,15 +18,20 @@ position:relative;
 #anibox1 {
   height: 60px;
   width: 100%;
-  
+  overflow: hidden;
   text-align: center;
   border: 2px gold ;
-    animation: righttoleft 20s linear infinite;
-    /*  background mein image dera hu aise dete hai  */
+    
+    /*  background mein  animation box ke andar image dera hu aise dete hai */
     /* background-image: url(Himage2.png); */
   
 }
-
+#anibox1 h2{
+    /*  ye beafltu ke scrool and content ko bahar jaane se roktav in short ye usefulll hai */
+    display:inline-block;
+    white-space:nowrap;
+    animation:righttoleft 20s linear infinite;
+}
 
 @keyframes righttoleft{
 
