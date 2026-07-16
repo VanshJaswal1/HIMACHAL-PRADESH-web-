@@ -4,6 +4,8 @@
   text-align: center;
   border: 2px gold ;
     animation: righttoleft 20s linear infinite;
+    /*  background mein image dera hu aise dete hai  */
+    background-image: url();
 
 }
 
